@@ -14,8 +14,6 @@ is_similar = list(df['is_similar'])
 del df
 
 ######## Word Embedding ############
-pdb.set_trace()
-
 sentences1 = [str(sent) for sent in sentences1]
 sentences2 = [str(sent) for sent in sentences2]
 
