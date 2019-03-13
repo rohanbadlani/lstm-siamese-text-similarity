@@ -6,7 +6,7 @@ import pdb
 
 ############ Data Preperation ##########
 
-df = pd.read_csv('c_skeletons_train.csv')
+df = pd.read_csv('data/c_skeletons_train.csv')
 
 sentences1 = list(df['sentences1'])
 sentences2 = list(df['sentences2'])

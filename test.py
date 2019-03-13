@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score
 best_model_path = "checkpoints/1551846625/" + str("lstm_50_50_0.17_0.25.h5")
 model = load_model(best_model_path)
 
-df = pd.read_csv('c_skeletons_test.csv')
+df = pd.read_csv('data/c_skeletons_test.csv')
 
 sentences1 = list(df['sentences1'])
 sentences2 = list(df['sentences2'])
